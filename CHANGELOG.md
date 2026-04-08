@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.7.0] - 2026-04-08
+
+### Multi-Version Support
+
+- Added `CLAUDE.md` at the repo root — enables the visual-explainer skill in any Claude environment that reads it: Claude.ai Projects, Claude Desktop, and Claude Code without the plugin system
+- `CLAUDE.md` includes environment-aware delivery instructions: writes to `~/.agent/diagrams/` and opens in browser when file system access is available; outputs as an artifact or HTML code block in Claude.ai web
+- Updated `README.md` with installation instructions for Claude.ai Projects (upload to Project Knowledge, optionally set as Project Instructions) and Claude Desktop (clone repo, open as project)
+
 ## [0.6.3] - 2026-03-09
 
 ### Documentation
