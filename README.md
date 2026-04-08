@@ -36,6 +36,27 @@ This skill fixes that. Real typography, dark/light themes, interactive Mermaid d
 
 Note: Claude Code plugins namespace commands as `/visual-explainer:command-name`.
 
+**Claude.ai Projects:**
+1. Clone the repo (or download the zip):
+   ```bash
+   git clone --depth 1 https://github.com/nicobailon/visual-explainer.git
+   ```
+2. Go to [claude.ai](https://claude.ai), open or create a Project.
+3. In **Project Knowledge**, upload:
+   - `CLAUDE.md`
+   - `plugins/visual-explainer/SKILL.md`
+   - All files under `plugins/visual-explainer/references/`
+   - All files under `plugins/visual-explainer/templates/`
+4. Optionally paste the contents of `CLAUDE.md` into **Project Instructions** so the skill activates automatically in every conversation.
+
+Commands work by description in Claude.ai — ask for a diff review, diagram, or plan review and the skill activates.
+
+**Claude Desktop:**
+```bash
+git clone --depth 1 https://github.com/nicobailon/visual-explainer.git
+```
+Open the cloned directory as a project in Claude Desktop. The `CLAUDE.md` at the root is read automatically — no further setup needed.
+
 **Pi:**
 ```bash
 curl -fsSL https://raw.githubusercontent.com/nicobailon/visual-explainer/main/install-pi.sh | bash
